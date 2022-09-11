@@ -1,0 +1,36 @@
+Nom       : Foucher
+Prénom    : Nathan
+Groupe TP : 1SN-C
+
+
+Consigne :  Ci-dessous, répondre à la place des « ... ».
+
+
+=====[ Temps ]==================================================================
+
+Temps passé sur la V1 : 4 heures 0 minutes
+Temps passé sur la V2 : ... heures ... minutes
+Pour la V2 on ne tiendra pas compte du temps passé sur la V1.
+Bien sûr, les temps renseignés ici ne sont pas pris en compte dans la notation.
+
+
+=====[ Questions ]==============================================================
+
+Indiquer la relation UML entre Cercle et le Point centre du cercle.
+-------------------------------------------------------------------
+
+Il y'a une dépendance de Cerlce envers Point.
+
+Comment est réalisée l'exigence E18 ?
+-------------------------------------
+
+Pour cela il ne faut pas directement retourner les variable (par exemple l'appel getCentre ne doit pas retoruner la variable Centre) mais une copie de ces dernières. Dans l'exemple avec getCentre on recréer un point O qui lui sera retourné.
+
+
+
+=====[ Explications ]===========================================================
+
+(Facultatif) Donner ici les explications supplémentaires utiles à la
+compréhension du travail rendu.
+
+...
